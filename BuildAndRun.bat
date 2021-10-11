@@ -1,6 +1,6 @@
 echo off
 
-echo Please make sure that you have installed JDK and set JAVA_HOME correctly!
+echo Please make sure that you have JDK installed and JAVA_HOME set properly!
 
 pause
 
