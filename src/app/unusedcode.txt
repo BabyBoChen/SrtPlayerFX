@@ -1,0 +1,41 @@
+/* this class can be used by Platform.runLatter(new RefreshLblThread()) */
+package app;
+
+import javafx.scene.control.*;
+
+public class RefreshLblThread implements Runnable{
+
+    private Clock clock;
+    private Label lblTimecode;
+
+    RefreshLblThread(Clock clock, Label lblTimecode){
+        this.clock = clock;
+        this.lblTimecode = lblTimecode;
+    }
+
+    public void run(){
+        /* this is just a template */
+    }
+}
+
+/* ******************************************************************** */
+
+/* template for custom event */
+package app;
+
+import javafx.event.Event;
+import javafx.event.EventType;
+
+public class TickEvent extends Event{
+
+    private static final long serialVersionUID = 1L;
+    public Clock clock;
+
+    public static final EventType<TickEvent> UPDATE = new EventType<>(ANY,"UPDATE");
+
+    public TickEvent(Clock clock, EventType<? extends TickEvent> eventType) {
+        super(eventType);
+    }
+}
+
+/* ************************************************ */

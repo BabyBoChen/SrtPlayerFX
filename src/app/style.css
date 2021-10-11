@@ -1,0 +1,28 @@
+.text-area{
+    /*-fx-text-fill: #ffffff;
+    -fx-background-color: #000000;*/
+    -fx-text-alignment: center;
+    -fx-font-size: 24px;
+}
+
+.text-area .content{
+    /*-fx-background-color: #000000;*/
+}
+
+.text-area .scroll-pane {
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.content {
+    /*-fx-background-color: transparent;*/
+}
+
+.text{
+    /*-fx-text-fill: #ffffff;*/
+    -fx-text-alignment: center;
+}
+
+.viewport{
+    /*-fx-background-color: transparent; */
+}
