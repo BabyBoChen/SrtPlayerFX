@@ -2,7 +2,7 @@
  
 OS: Windows10;
 
-System Requirements: JDK 11^, JAVA_HOME set;
+System Requirements: JDK ^11, JAVA_HOME set;
 
 (JavaFX module was included under the lib folder.)
 
